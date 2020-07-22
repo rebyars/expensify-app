@@ -12,6 +12,8 @@ import getExpensesTotal from './selectors/expenses-total';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
+import './firebase/firebase';
+
 const store = configureStore();
 console.log("testing");
 const jsx = (
